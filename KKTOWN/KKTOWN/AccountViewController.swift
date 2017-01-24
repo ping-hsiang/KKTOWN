@@ -34,10 +34,10 @@ class AccountViewController: UIViewController {
     }
 }
 
-// MARK: - AccountView
+// MARK: - AccountViewSettings
 extension AccountViewController {
    
-    func AccountViewSettings(){
+   func AccountViewSettings(){
         
         AccountView = UIView()
         AccountView.backgroundColor = KKTOWNColor
@@ -100,7 +100,7 @@ extension AccountViewController {
     
 }
 
-// MARK: - AccountCollectionView
+// MARK: - AccountCollectionViewSettings
 extension AccountViewController {
     
     func AccountCollectionViewSettings(){
@@ -141,7 +141,19 @@ extension AccountViewController: UICollectionViewDelegate, UICollectionViewDataS
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         
         
-        navigationController?.pushViewController(Account_My_ViewController(), animated: true)
+        switch indexPath.row {
+        case 0:
+            navigationController?.pushViewController(AccountMyViewController(), animated: true)
+        case 1:
+            navigationController?.pushViewController(AccountSellingViewController(), animated: true)
+        case 8:
+            navigationController?.pushViewController(AccountQuestionViewController(), animated: true)
+        default:
+            break
+        }
+        
+
+        //navigationController?.pushViewController(AccountMyViewController(), animated: true)
         
     }
     

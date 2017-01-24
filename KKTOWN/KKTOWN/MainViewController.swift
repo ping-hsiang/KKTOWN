@@ -33,7 +33,7 @@ extension MainViewController {
         
         let array = [
             [
-                "clsName" : "HomeViewController",
+                "clsName" : "AccountViewController",
                 "title" : "首頁",
                 "imageName" : "home"
             ],

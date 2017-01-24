@@ -15,7 +15,6 @@ class NavigationController: UINavigationController {
         
         navigationBar.isHidden = true
 
-        //创建一个高20的假状态栏
         
 
     
