@@ -8,11 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		15E167DA1E36F72C00D1687D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E167D91E36F72C00D1687D /* AppDelegate.swift */; };
-		15E167DC1E36F72C00D1687D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E167DB1E36F72C00D1687D /* ViewController.swift */; };
-		15E167DF1E36F72C00D1687D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E167DD1E36F72C00D1687D /* Main.storyboard */; };
 		15E167E11E36F72C00D1687D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E167E01E36F72C00D1687D /* Assets.xcassets */; };
 		15E167E41E36F72C00D1687D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E167E21E36F72C00D1687D /* LaunchScreen.storyboard */; };
 		15E167EF1E36F72C00D1687D /* KKTOWNTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E167EE1E36F72C00D1687D /* KKTOWNTests.swift */; };
+		15E168051E36F8B000D1687D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E168041E36F8B000D1687D /* Common.swift */; };
+		15E168091E36F8DC00D1687D /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E168071E36F8DC00D1687D /* BundleExtension.swift */; };
+		15E1680A1E36F8DC00D1687D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E168081E36F8DC00D1687D /* UIViewControllerExtension.swift */; };
+		15E1682B1E36F94000D1687D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E168291E36F94000D1687D /* MainViewController.swift */; };
+		15E1682C1E36F94000D1687D /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1682A1E36F94000D1687D /* NavigationController.swift */; };
+		15E1682E1E36F94700D1687D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1682D1E36F94700D1687D /* HomeViewController.swift */; };
+		15E168301E36F94C00D1687D /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E1682F1E36F94C00D1687D /* ExploreViewController.swift */; };
+		15E168321E36F95200D1687D /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E168311E36F95200D1687D /* PhotoViewController.swift */; };
+		15E168341E36F95700D1687D /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E168331E36F95700D1687D /* NoticeViewController.swift */; };
+		15E168381E36F95E00D1687D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E168351E36F95E00D1687D /* AccountViewController.swift */; };
+		15E168391E36F95E00D1687D /* AccountCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E168361E36F95E00D1687D /* AccountCollectionViewCell.swift */; };
+		15E1683A1E36F95E00D1687D /* Account_My_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E168371E36F95E00D1687D /* Account_My_ViewController.swift */; };
+		9259BFD79B1A9E742FC4B44E /* Pods_KKTOWN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79BA404856E5FC5AE320C65 /* Pods_KKTOWN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +39,28 @@
 /* Begin PBXFileReference section */
 		15E167D61E36F72C00D1687D /* KKTOWN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKTOWN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E167D91E36F72C00D1687D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15E167DB1E36F72C00D1687D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		15E167DE1E36F72C00D1687D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15E167E01E36F72C00D1687D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15E167E31E36F72C00D1687D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15E167E51E36F72C00D1687D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15E167EA1E36F72C00D1687D /* KKTOWNTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKTOWNTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E167EE1E36F72C00D1687D /* KKTOWNTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKTOWNTests.swift; sourceTree = "<group>"; };
 		15E167F01E36F72C00D1687D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E168041E36F8B000D1687D /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		15E168071E36F8DC00D1687D /* BundleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		15E168081E36F8DC00D1687D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		15E168291E36F94000D1687D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		15E1682A1E36F94000D1687D /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		15E1682D1E36F94700D1687D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		15E1682F1E36F94C00D1687D /* ExploreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		15E168311E36F95200D1687D /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		15E168331E36F95700D1687D /* NoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		15E168351E36F95E00D1687D /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		15E168361E36F95E00D1687D /* AccountCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCollectionViewCell.swift; sourceTree = "<group>"; };
+		15E168371E36F95E00D1687D /* Account_My_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account_My_ViewController.swift; sourceTree = "<group>"; };
+		2866C1F25FDBF16FBC6D6DF9 /* Pods-KKTOWN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKTOWN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKTOWN/Pods-KKTOWN.debug.xcconfig"; sourceTree = "<group>"; };
+		372F5F7B54ED89900FC6311F /* Pods_KKTOWNTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKTOWNTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		499534E16720925CAC583001 /* Pods-KKTOWN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKTOWN.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKTOWN/Pods-KKTOWN.release.xcconfig"; sourceTree = "<group>"; };
+		D79BA404856E5FC5AE320C65 /* Pods_KKTOWN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKTOWN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9259BFD79B1A9E742FC4B44E /* Pods_KKTOWN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B92795CD6F106612F755935 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2866C1F25FDBF16FBC6D6DF9 /* Pods-KKTOWN.debug.xcconfig */,
+				499534E16720925CAC583001 /* Pods-KKTOWN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		15E167CD1E36F72C00D1687D = {
 			isa = PBXGroup;
 			children = (
 				15E167D81E36F72C00D1687D /* KKTOWN */,
 				15E167ED1E36F72C00D1687D /* KKTOWNTests */,
 				15E167D71E36F72C00D1687D /* Products */,
+				0B92795CD6F106612F755935 /* Pods */,
+				75263C346324FC4CF820B630 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +114,11 @@
 		15E167D81E36F72C00D1687D /* KKTOWN */ = {
 			isa = PBXGroup;
 			children = (
-				15E167D91E36F72C00D1687D /* AppDelegate.swift */,
-				15E167DB1E36F72C00D1687D /* ViewController.swift */,
-				15E167DD1E36F72C00D1687D /* Main.storyboard */,
+				15E167F91E36F80300D1687D /* Application */,
+				15E167FA1E36F81B00D1687D /* Utils */,
+				15E167FB1E36F82100D1687D /* Model */,
+				15E167FC1E36F82500D1687D /* View */,
+				15E167FD1E36F83100D1687D /* ViewModel */,
 				15E167E01E36F72C00D1687D /* Assets.xcassets */,
 				15E167E21E36F72C00D1687D /* LaunchScreen.storyboard */,
 				15E167E51E36F72C00D1687D /* Info.plist */,
@@ -96,6 +135,119 @@
 			path = KKTOWNTests;
 			sourceTree = "<group>";
 		};
+		15E167F91E36F80300D1687D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				15E167D91E36F72C00D1687D /* AppDelegate.swift */,
+				15E168041E36F8B000D1687D /* Common.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		15E167FA1E36F81B00D1687D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				15E168061E36F8C600D1687D /* Extensions */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		15E167FB1E36F82100D1687D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		15E167FC1E36F82500D1687D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15E168281E36F93500D1687D /* Main */,
+				15E168271E36F93000D1687D /* Home */,
+				15E168261E36F92B00D1687D /* Explore */,
+				15E168251E36F92500D1687D /* Photo */,
+				15E168241E36F92200D1687D /* Notice */,
+				15E168231E36F91B00D1687D /* Account */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		15E167FD1E36F83100D1687D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		15E168061E36F8C600D1687D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				15E168071E36F8DC00D1687D /* BundleExtension.swift */,
+				15E168081E36F8DC00D1687D /* UIViewControllerExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		15E168231E36F91B00D1687D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				15E168351E36F95E00D1687D /* AccountViewController.swift */,
+				15E168361E36F95E00D1687D /* AccountCollectionViewCell.swift */,
+				15E168371E36F95E00D1687D /* Account_My_ViewController.swift */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		15E168241E36F92200D1687D /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				15E168331E36F95700D1687D /* NoticeViewController.swift */,
+			);
+			name = Notice;
+			sourceTree = "<group>";
+		};
+		15E168251E36F92500D1687D /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				15E168311E36F95200D1687D /* PhotoViewController.swift */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		15E168261E36F92B00D1687D /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				15E1682F1E36F94C00D1687D /* ExploreViewController.swift */,
+			);
+			name = Explore;
+			sourceTree = "<group>";
+		};
+		15E168271E36F93000D1687D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				15E1682D1E36F94700D1687D /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		15E168281E36F93500D1687D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				15E168291E36F94000D1687D /* MainViewController.swift */,
+				15E1682A1E36F94000D1687D /* NavigationController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		75263C346324FC4CF820B630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D79BA404856E5FC5AE320C65 /* Pods_KKTOWN.framework */,
+				372F5F7B54ED89900FC6311F /* Pods_KKTOWNTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15E167F31E36F72C00D1687D /* Build configuration list for PBXNativeTarget "KKTOWN" */;
 			buildPhases = (
+				C931F05BA03542586FDEB3B9 /* [CP] Check Pods Manifest.lock */,
 				15E167D21E36F72C00D1687D /* Sources */,
 				15E167D31E36F72C00D1687D /* Frameworks */,
 				15E167D41E36F72C00D1687D /* Resources */,
+				DE6A78AEA4AFB62837314C41 /* [CP] Embed Pods Frameworks */,
+				B8D412BD1F524FD4958D65D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,7 +338,6 @@
 			files = (
 				15E167E41E36F72C00D1687D /* LaunchScreen.storyboard in Resources */,
 				15E167E11E36F72C00D1687D /* Assets.xcassets in Resources */,
-				15E167DF1E36F72C00D1687D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +350,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B8D412BD1F524FD4958D65D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKTOWN/Pods-KKTOWN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C931F05BA03542586FDEB3B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE6A78AEA4AFB62837314C41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKTOWN/Pods-KKTOWN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15E167D21E36F72C00D1687D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15E167DC1E36F72C00D1687D /* ViewController.swift in Sources */,
+				15E1680A1E36F8DC00D1687D /* UIViewControllerExtension.swift in Sources */,
+				15E1682C1E36F94000D1687D /* NavigationController.swift in Sources */,
+				15E168391E36F95E00D1687D /* AccountCollectionViewCell.swift in Sources */,
+				15E168051E36F8B000D1687D /* Common.swift in Sources */,
 				15E167DA1E36F72C00D1687D /* AppDelegate.swift in Sources */,
+				15E168341E36F95700D1687D /* NoticeViewController.swift in Sources */,
+				15E168301E36F94C00D1687D /* ExploreViewController.swift in Sources */,
+				15E168321E36F95200D1687D /* PhotoViewController.swift in Sources */,
+				15E168091E36F8DC00D1687D /* BundleExtension.swift in Sources */,
+				15E1683A1E36F95E00D1687D /* Account_My_ViewController.swift in Sources */,
+				15E1682E1E36F94700D1687D /* HomeViewController.swift in Sources */,
+				15E1682B1E36F94000D1687D /* MainViewController.swift in Sources */,
+				15E168381E36F95E00D1687D /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +438,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		15E167DD1E36F72C00D1687D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15E167DE1E36F72C00D1687D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		15E167E21E36F72C00D1687D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -337,10 +542,12 @@
 		};
 		15E167F41E36F72C00D1687D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2866C1F25FDBF16FBC6D6DF9 /* Pods-KKTOWN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WLUA47MURB;
 				INFOPLIST_FILE = KKTOWN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.KKTOWN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,10 +557,12 @@
 		};
 		15E167F51E36F72C00D1687D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499534E16720925CAC583001 /* Pods-KKTOWN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WLUA47MURB;
 				INFOPLIST_FILE = KKTOWN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.KKTOWN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,6 +619,7 @@
 				15E167F51E36F72C00D1687D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15E167F61E36F72C00D1687D /* Build configuration list for PBXNativeTarget "KKTOWNTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +628,7 @@
 				15E167F81E36F72C00D1687D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
